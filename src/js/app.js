@@ -1,9 +1,8 @@
-var lnuit = require("./lnuit");
+var lnuit = require('./lnuit')
 
 // Add the style to the head
-var relativePath = "./stylesheet/style.css";
+var relativePath = './css/style.css'
 
 // call the two functions needed for this exercise
-lnuit.addStyleFile(relativePath);
-lnuit.addClassToAllLinks("lnu");
-Contact GitHub API Training Shop Blog About
+lnuit.addStyleFile(relativePath)
+lnuit.addClassToAllLinks('lnu')
